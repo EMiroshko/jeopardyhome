@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 12
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"]
+  },
+  "settings": {
+    "react": {
+      "version": "18"
+    }
+  }
+}
